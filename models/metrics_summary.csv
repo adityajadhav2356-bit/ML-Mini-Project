@@ -1,0 +1,5 @@
+Algorithm,Accuracy,Precision (Spam),Recall (Spam),F1-Score (Spam),ROC-AUC,True Negatives,False Positives,False Negatives,True Positives
+Logistic Regression,0.9758,0.9905,0.8125,0.8927,0.9985,903,1,24,104
+Support Vector Machine (SVM),0.9913,1.0,0.9297,0.9636,0.9985,904,0,9,119
+K-Nearest Neighbors (KNN),0.9797,0.982,0.8516,0.9121,0.9758,902,2,19,109
+AdaBoost,0.9748,0.9636,0.8281,0.8908,0.9934,900,4,22,106

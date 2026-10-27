@@ -1,0 +1,74 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.9757751937984496,
+    "precision": 0.9904761904761905,
+    "recall": 0.8125,
+    "f1_score": 0.8927038626609443,
+    "roc_auc": 0.9984703401548672,
+    "confusion_matrix": [
+      [
+        903,
+        1
+      ],
+      [
+        24,
+        104
+      ]
+    ],
+    "has_predict_proba": true
+  },
+  "Support Vector Machine (SVM)": {
+    "accuracy": 0.9912790697674418,
+    "precision": 1.0,
+    "recall": 0.9296875,
+    "f1_score": 0.9635627530364372,
+    "roc_auc": 0.9984962665929205,
+    "confusion_matrix": [
+      [
+        904,
+        0
+      ],
+      [
+        9,
+        119
+      ]
+    ],
+    "has_predict_proba": true
+  },
+  "K-Nearest Neighbors (KNN)": {
+    "accuracy": 0.9796511627906976,
+    "precision": 0.9819819819819819,
+    "recall": 0.8515625,
+    "f1_score": 0.9121338912133892,
+    "roc_auc": 0.9757803857853982,
+    "confusion_matrix": [
+      [
+        902,
+        2
+      ],
+      [
+        19,
+        109
+      ]
+    ],
+    "has_predict_proba": true
+  },
+  "AdaBoost": {
+    "accuracy": 0.9748062015503876,
+    "precision": 0.9636363636363636,
+    "recall": 0.828125,
+    "f1_score": 0.8907563025210085,
+    "roc_auc": 0.993393079369469,
+    "confusion_matrix": [
+      [
+        900,
+        4
+      ],
+      [
+        22,
+        106
+      ]
+    ],
+    "has_predict_proba": true
+  }
+}
